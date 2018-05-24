@@ -1,0 +1,41 @@
+{
+  "name": "steemit-payout-bot",
+  "version": "0.0.1",
+  "main": "./lib/config.js",
+  "description": "Using the Follow functionality on the Steem blockchain.",
+  "author": "eutectico>",
+  "homepage": "http://github.com/Eutectico",
+  "keywords": [
+    "steem",
+    "bot",
+    "steemit",
+    "cryptocurrency",
+    "social network",
+    "blockchain"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mssql": "^4.1.0",
+    "request": "^2.83.0",
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {
+    "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Eutectico/steemit-payout-bot.git"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/vows/bin/vows test/*.js --spec"
+  },
+  "bugs": {
+    "url": "https://github.com/Eutectico/steemit-payout-bot/issues"
+  }
+}
