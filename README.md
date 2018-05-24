@@ -1,13 +1,13 @@
 # Steemit-Payout-Bot
 
-You should not use this bot unless you understand exactly what it does. It requires your *active_key* and its use is not recommended. Do not ask me for support if it sends all of your money somewhere.
+You should not use this bot unless you understand exactly what it does. It requires your _active_key_ and its use is not recommended. Do not ask me for support if it sends all of your money somewhere.
 
 As with all of my tools, this disclaimer applies:
-```
-Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-```
 
-##This Bot performs transactions of a certain amount of Steem or SBD to the list of users provided by the operator.
+_Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law._
+
+
+This Bot performs transactions of a certain amount of *Steem* or *SBD* to the list of users provided by the operator.
 
 
 ## Installation
@@ -50,7 +50,7 @@ module.exports = config;
 
 ```
 
-### userlist
+### Userlist
 You must create a list of users where the payouts will be made. The file must contain only one Steem account name on each line and nothing else in the following example:
 
 ```
